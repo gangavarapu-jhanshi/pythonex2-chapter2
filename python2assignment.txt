@@ -1,0 +1,84 @@
+1.What are the two values of the Boolean data type? How do you write them?
+  True and FaLse Are 2 boolean data types.we write them as T and F
+__________________________________________________________________________________
+2. What are the three Boolean operators?
+AND OR NOT are 3 boolean operators
+___________________________________________________
+3. Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+True and True is True.
+True and False is False.
+False and True is False.
+False and False is False.
+True or True is True.
+True or False is True.
+False or True is True.
+False or False is False.
+not True is False.
+not False is True.
+__________________________________________________
+4. What do the following expressions evaluate to?
+
+(5 > 4) and (3 == 5)        
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+       
+ False
+False
+True
+False
+False
+True
+__________________________________________________
+5. What are the six comparison operators?
+== >= <= != > < 
+__________________________________________________
+6. What is the difference between the equal to operator and the assignment operator?
+assinment operator means the value present after equal to is assigned to the the value in before equal to ie it is just assigned the valuues.
+equal to operator compare the 2 values whether both are equal or not.
+__________________________________________________
+7. Explain what a condition is and where you would use one.
+A condition is an expression used in a flow control statement that evaluates to a Boolean value.
+__________________________________________________
+8. Identify the three blocks in this code:
+
+spam = 0
+if spam == 10:
+    print('eggs')
+    if spam > 5:
+        print('bacon')
+    else:
+        print('ham')
+    print('spam')
+print('spam')
+__________________________________________________
+9. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+spam=int(input())
+if spam == 1:
+    print('Hello')
+elif spam == 2:
+    print('Howdy')
+else:
+    print('Greetings!')
+__________________________________________________
+10. What keys can you press if your program is stuck in an infinite loop?
+ctrl+c
+__________________________________________________
+11. What is the difference between break and continue?
+The break statement will move the execution outside and just after a loop. The continue statement will move the execution to the start of the loop.
+__________________________________________________
+12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+All are same
+__________________________________________________
+13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+  print("the numbers are")         i=1
+  for i in range(1,10):            while i<11:
+       print(str(i))                   print(str(i))
+                                       i=i+1
+__________________________________________________
+14. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+
+ This function can be called with spam.bacon().
+__________________________________________________
